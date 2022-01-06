@@ -57,11 +57,37 @@ h3 {
 
 .box-model {
     margin: 15px 30px;
-    padding-left: 15px;
-    
+    padding-left: 25px;
+    /* padding-right: 10px; */
+    width: 100%;
+
 }
 
-.back-style {
-    display: flex;
-    width: 50%;
+/* .experience {
+    box-shadow: 10px 10px 40px gray
+} */
+
+.baby-developer {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 30px gray
+}
+
+.baby-developer h1 {
+    font-size: 32px;
+}
+
+#stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(107, 211, 107), green);
+    border-image-slice: 1;
+}
+
+#non-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(42, 72, 187), rgb(29, 154, 239));
+    border-image-slice: 1;
 }
