@@ -59,7 +59,7 @@ h3 {
     margin: 15px 30px;
     padding-left: 25px;
     /* padding-right: 10px; */
-    width: 100%;
+
 
 }
 
@@ -90,4 +90,10 @@ h3 {
     border-left: 7px solid;
     border-image: linear-gradient(rgb(42, 72, 187), rgb(29, 154, 239));
     border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgb(222, 247, 222), #e9d2d2);
+    padding: 10px;
 }
